@@ -1,4 +1,26 @@
-.idea/
-venv/
+# .idea/
+# venv/
+# *.pyc
+# .vscode/
+# Ignore compiled Python files
+__pycache__/
 *.pyc
+*.pyo
+*.pyd
+
+# Ignore virtual environment directories
+venv/
+env/
+
+# Ignore IDE and editor files
 .vscode/
+.idea/
+
+# Ignore miscellaneous files
+*.log
+*.db
+*.sqlite
+
+# Ignore system-specific files
+.DS_Store
+Thumbs.db
